@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Slot Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎰 Mini Slot Machine</h1>
+  <div class="slot-machine">
+    <div id="reel1" class="reel">🍒</div>
+    <div id="reel2" class="reel">🍋</div>
+    <div id="reel3" class="reel">7️⃣</div>
+  </div>
+
+  <div class="controls">
+    <p>💵 Balance: <span id="balance">1000</span> MMK</p>
+    <input id="bet" type="number" value="100" min="10" step="10" /> MMK
+    <button onclick="playGame()">Spin 🎲</button>
+  </div>
+
+  <p id="result"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
